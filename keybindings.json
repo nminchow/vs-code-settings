@@ -1,0 +1,49 @@
+// Place your key bindings in this file to overwrite the defaults
+// on windows replace "cmd" with "ctrl"
+[
+  { "key": "shift+cmd+l",            "command": "editor.action.deleteLines",
+                                      "when": "editorTextFocus && !editorReadonly" },
+  { "key": "ctrl+alt+g",                 "command": "editor.action.nextMatchFindAction",
+                                      "when": "editorFocus" },
+  { "key": "shift+ctrl+alt+g",           "command": "editor.action.previousMatchFindAction",
+                                      "when": "editorFocus" },
+  { "key": "cmd+l",                  "command": "workbench.action.gotoLine" },
+
+  // these are for 'bookmarks' extension
+  { "key": "cmd+k cmd+k",             "command": "bookmarks.toggle",
+                                        "when": "editorTextFocus" },
+  { "key": "cmd+k cmd+l",             "command": "bookmarks.listFromAllFiles"},
+
+  // git commands
+  { "key": "cmd+g cmd+g",             "command": "workbench.view.git" },
+  { "key": "cmd+g cmd+s",             "command": "git.sync"},
+  { "key": "cmd+g cmd+p",             "command": "git.publish" },
+  { "key": "cmd+g cmd+c",             "command": "git.checkout" },
+  { "key": "cmd+g cmd+b",             "command": "git.branch"},
+  { "key": "cmd+g cmd+a",             "command": "openInGithub.openInGitHubBlame"},
+  { "key": "cmd+g cmd+f",             "command": "openInGithub.openInGitHubFile"},
+  { "key": "cmd+g cmd+h",             "command": "openInGithub.openInGitHubHistory"},
+
+  // terminal stuff
+  { "key": "cmd+`",                   "command": "workbench.action.terminal.toggleTerminal"},
+  { "key": "cmd+t",                   "command": "workbench.action.terminal.focus" },
+
+  // bring cursor to active editor
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+
+  // explorer file creation
+  { "key": "cmd+n",                   "command": "explorer.newFile",
+                                        "when": "explorerViewletFocus && explorerViewletVisible" },
+  { "key": "cmd+shift+n",             "command": "explorer.newFolder",
+                                        "when": "explorerViewletFocus && explorerViewletVisible"},
+
+  // explorer
+  { "key": "cmd+r",                   "command": "renameFile",
+                                        "when": "explorerViewletVisible && filesExplorerFocus" },
+  { "key": "enter",                   "command": "explorer.openToSide",
+                                        "when": "explorerViewletFocus && explorerViewletVisible" }
+
+]
