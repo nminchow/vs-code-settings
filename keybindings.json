@@ -15,7 +15,7 @@
   { "key": "cmd+k cmd+l",             "command": "bookmarks.listFromAllFiles"},
 
   // git commands
-  { "key": "cmd+g cmd+g",             "command": "workbench.view.git" },
+  { "key": "cmd+g cmd+g",             "command": "workbench.view.scm" },
   { "key": "cmd+g cmd+s",             "command": "git.sync"},
   { "key": "cmd+g cmd+p",             "command": "git.publish" },
   { "key": "cmd+g cmd+c",             "command": "git.checkout" },
