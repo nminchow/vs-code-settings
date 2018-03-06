@@ -55,5 +55,7 @@
   "editor.renderLineHighlight": "all",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "nil",
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.promptToSaveFilesBeforeCommit": true
 }
