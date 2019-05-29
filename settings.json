@@ -144,6 +144,7 @@
     "vuex",
     "webpacker's"
   ],
-  "breadcrumbs.enabled": false,
-  "workbench.activityBar.visible": true
+  "breadcrumbs.enabled": true,
+  "workbench.activityBar.visible": true,
+  "extensions.ignoreRecommendations": false,
 }
