@@ -20,9 +20,13 @@
   { "key": "cmd+g cmd+p",             "command": "git.publish" },
   { "key": "cmd+g cmd+c",             "command": "git.checkout" },
   { "key": "cmd+g cmd+b",             "command": "git.branch"},
+  { "key": "cmd+g cmd+m",             "command": "git.merge"},
   { "key": "cmd+g cmd+a",             "command": "openInGithub.openInGitHubBlame"},
   { "key": "cmd+g cmd+f",             "command": "openInGithub.openInGitHubFile"},
   { "key": "cmd+g cmd+h",             "command": "openInGithub.openInGitHubHistory"},
+  { "key": "cmd+g cmd+d",             "command": "pr.openDescription"},
+  { "key": "cmd+g cmd+r",             "command": "pr:scm.focus"},
+  { "key": "cmd+r",             "command": "pr.refreshList",    "when": "activeViewlet == 'workbench.view.scm'"},
 
   // terminal stuff
   { "key": "cmd+`",                   "command": "workbench.action.terminal.toggleTerminal"},

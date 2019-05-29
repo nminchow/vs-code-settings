@@ -1,19 +1,33 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": 2,
-    "git.confirmSync": false,
-    "files.trimTrailingWhitespace": true,
-    "search.exclude": {
-      "coverage": true,
-      "log": true
-    },
+  "editor.tabSize": 2,
+  "git.confirmSync": false,
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "coverage": true,
+    "log": true
+  },
   "window.zoomLevel": 0,
   "ruby.lint": {
     "rubocop": true
   },
+  "rewrap.wrappingColumn": 79,
+  "rewrap.autoWrap.enabled": false,
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 98, // No line exceeds 100 characters
+      "singleQuote": false // Prefer double quotes over single quotes
+    }
+  },
+  "githubPullRequests.showInSCM": true,
+  // "editor.formatOnSave": true,
+  "ruby.intellisense": "rubyLocate",
   "workbench.editor.enablePreview": false,
+  "html.format.wrapLineLength": 100,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
+  "editor.renderIndentGuides": true,
   // colors!
   "workbench.colorTheme": "Quiet Light",
   "workbench.colorCustomizations": {
@@ -22,6 +36,8 @@
     "editor.lineHighlightBackground": "#fcfce0",
     "tab.inactiveBackground": "#f7f7f4",
     "editorLineNumber.foreground": "#BE3410",
+    "editorIndentGuide.background": "#EDEDE8",
+    "editorIndentGuide.activeBackground": "#bcbcb5",
     // sidebar
     "sideBar.background": "#e2e2dc",
     "sideBarSectionHeader.background": "#f2f2ef",
@@ -51,9 +67,83 @@
   "typescript.check.npmIsInstalled": false,
   "editor.dragAndDrop": false,
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides":false,
   "editor.renderLineHighlight": "all",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "nil",
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.promptToSaveFilesBeforeCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "solidity.linter": "solium",
+  "solidity.soliumRules": {
+    "imports-on-top": 0,
+    "variable-declarations": 0,
+    "indentation": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
+  },
+  "explorer.confirmDragAndDrop": false,
+  // spelling rules
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "ruby",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yml"
+  ],
+  "cSpell.userWords": [
+    "Cryptpay",
+    "camelize",
+    "chargeback",
+    "cognito",
+    "mixins",
+    "option",
+    "passthrough",
+    "polyfill",
+    "postgres",
+    "product",
+    "readonly",
+    "rendur",
+    "rubocop",
+    "serializer",
+    "stringify",
+    "struct",
+    "substr",
+    "underwriting's",
+    "uuid",
+    "validators",
+    "vuetify",
+    "vuex",
+    "webpacker's"
+  ],
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.visible": true
 }
