@@ -3,6 +3,9 @@
   "editor.tabSize": 2,
   "git.confirmSync": false,
   "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   "search.exclude": {
     "coverage": true,
     "log": true
@@ -47,6 +50,7 @@
     "activityBar.background": "#bcbcb5",
     "activityBar.foreground": "#2a79d6",
     "activityBarBadge.background": "#BE3410",
+    "activityBarBadge.foreground": "#fcfce0",
     // titlebar
     "titleBar.activeBackground": "#ccccc3",
     "statusBar.background": "#2a79dd",
@@ -62,14 +66,16 @@
     "terminal.background": "#EDEDE8",
     "panel.background": "#e2e2dc",
     "panelTitle.activeForeground": "#BE3410",
-    "panelTitle.inactiveForeground": "#bcbcb5"
+    "panelTitle.inactiveForeground": "#bcbcb5",
+    // search results and such
+    "badge.background": "#BE3410",
+    "badge.foreground": "#fcfce0"
   },
   "typescript.check.npmIsInstalled": false,
   "editor.dragAndDrop": false,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
   "workbench.editor.showIcons": false,
-  "workbench.iconTheme": "nil",
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.promptToSaveFilesBeforeCommit": true,
@@ -121,9 +127,11 @@
   ],
   "cSpell.userWords": [
     "Cryptpay",
+    "Ingenico",
     "camelize",
     "chargeback",
     "cognito",
+    "decryptor",
     "mixins",
     "option",
     "passthrough",
@@ -138,12 +146,14 @@
     "struct",
     "substr",
     "underwriting's",
+    "unencrypted",
     "uuid",
     "validators",
     "vuetify",
     "vuex",
     "webpacker's"
   ],
-  "breadcrumbs.enabled": false,
-  "workbench.activityBar.visible": true
+  "breadcrumbs.enabled": true,
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": null
 }
