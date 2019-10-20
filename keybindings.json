@@ -31,6 +31,8 @@
   // terminal stuff
   { "key": "cmd+`",                   "command": "workbench.action.terminal.toggleTerminal"},
   { "key": "cmd+t",                   "command": "workbench.action.terminal.focus" },
+  { "key": "cmd+r",                   "command": "workbench.action.terminal.rename", "when": "terminalFocus" },
+  { "key": "cmd+t",                   "command": "workbench.action.quickOpenTerm", "when": "terminalFocus" },
 
   // bring cursor to active editor
   {
@@ -48,6 +50,14 @@
   { "key": "cmd+r",                   "command": "renameFile",
                                         "when": "explorerViewletVisible && filesExplorerFocus" },
   { "key": "enter",                   "command": "explorer.openToSide",
-                                        "when": "explorerViewletFocus && explorerViewletVisible" }
-
+                                        "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "shift+cmd+,",
+    "command": "workbench.action.navigateBack"
+  },
 ]

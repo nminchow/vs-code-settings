@@ -2,6 +2,8 @@
 {
   "editor.tabSize": 2,
   "git.confirmSync": false,
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.rendererType": "dom",
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
@@ -127,7 +129,9 @@
   ],
   "cSpell.userWords": [
     "Cryptpay",
+    "Dropdown",
     "Ingenico",
+    "UNPROCESSABLE",
     "camelize",
     "chargeback",
     "cognito",
@@ -139,7 +143,9 @@
     "postgres",
     "product",
     "readonly",
+    "refetch",
     "rendur",
+    "rerender",
     "rubocop",
     "serializer",
     "stringify",
@@ -155,5 +161,7 @@
   ],
   "breadcrumbs.enabled": true,
   "workbench.activityBar.visible": true,
-  "workbench.iconTheme": null
+  "workbench.iconTheme": null,
+  "extensions.ignoreRecommendations": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true
 }
