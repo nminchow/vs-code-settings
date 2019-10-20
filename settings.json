@@ -1,6 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
   "editor.tabSize": 2,
+  "editor.fontFamily": "Hasklig, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "git.confirmSync": false,
   "terminal.integrated.shell.osx": "zsh",
   "terminal.integrated.rendererType": "dom",
@@ -16,6 +18,12 @@
   "ruby.lint": {
     "rubocop": true
   },
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
   "rewrap.wrappingColumn": 79,
   "rewrap.autoWrap.enabled": false,
   "vetur.format.defaultFormatter.js": "none",
