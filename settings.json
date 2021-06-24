@@ -9,10 +9,12 @@
   "terminal.integrated.shell.osx": "zsh",
   "terminal.integrated.rendererType": "dom",
   "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
   "search.exclude": {
+    "**/dist/**": true,
     "coverage": true,
     "log": true
   },
@@ -147,6 +149,7 @@
     "Cryptpay",
     "Dropdown",
     "Ingenico",
+    "Paysly",
     "UNPROCESSABLE",
     "camelize",
     "chargeback",
@@ -154,6 +157,8 @@
     "decryptor",
     "expirementing",
     "logrocket",
+    "firebaseui",
+    "firestore",
     "mixins",
     "option",
     "orgs",
@@ -192,6 +197,9 @@
   "editor.renderWhitespace": "none",
   "files.exclude": {
     ".vscode": true
+  },
+  "files.watcherExclude": {
+    "**/dist/**": true
   },
   "plantuml.render": "PlantUMLServer",
   "plantuml.server": "http://localhost:5335/plantuml",
