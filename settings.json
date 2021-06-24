@@ -80,7 +80,8 @@
     "list.highlightForeground": "#2a79dd",
     // search
     "quickInput.background": "#EDEDE8",
-    "quickInput.list.focusBackground": "#94b8e8",
+    "quickInputList.focusBackground": "#94b8e8",
+    "quickInputList.focusForeground": "#575757",
     // terminal
     "terminal.background": "#EDEDE8",
     "panel.background": "#e2e2dc",
