@@ -196,10 +196,7 @@
   "plantuml.render": "PlantUMLServer",
   "plantuml.server": "http://localhost:5335/plantuml",
   "debug.javascript.autoAttachFilter": "disabled",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ]
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  }
 }
