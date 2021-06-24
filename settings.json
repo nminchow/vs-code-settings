@@ -2,6 +2,8 @@
 {
   "editor.tabSize": 2,
   "editor.fontFamily": "Hasklig, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
   "editor.fontLigatures": true,
   "git.confirmSync": false,
   "terminal.integrated.shell.osx": "zsh",
@@ -14,6 +16,7 @@
     "coverage": true,
     "log": true
   },
+  "search.followSymlinks": false,
   "window.zoomLevel": 0,
   "ruby.lint": {
     "rubocop": true
@@ -37,6 +40,7 @@
   // "editor.formatOnSave": true,
   "ruby.intellisense": "rubyLocate",
   "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
   "html.format.wrapLineLength": 100,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
@@ -72,6 +76,9 @@
     "list.inactiveSelectionBackground": "#94b8e8",
     "list.focusBackground": "#94b8e8",
     "list.highlightForeground": "#2a79dd",
+    // search
+    "quickInput.background": "#EDEDE8",
+    "quickInput.list.focusBackground": "#94b8e8",
     // terminal
     "terminal.background": "#EDEDE8",
     "panel.background": "#e2e2dc",
@@ -79,7 +86,8 @@
     "panelTitle.inactiveForeground": "#bcbcb5",
     // search results and such
     "badge.background": "#BE3410",
-    "badge.foreground": "#fcfce0"
+    "badge.foreground": "#fcfce0",
+
   },
   "typescript.check.npmIsInstalled": false,
   "editor.dragAndDrop": false,
@@ -144,12 +152,16 @@
     "chargeback",
     "cognito",
     "decryptor",
+    "expirementing",
+    "logrocket",
     "mixins",
     "option",
+    "orgs",
     "passthrough",
     "polyfill",
     "postgres",
     "product",
+    "rbac",
     "readonly",
     "refetch",
     "rendur",
@@ -171,5 +183,23 @@
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": null,
   "extensions.ignoreRecommendations": false,
-  "javascript.implicitProjectConfig.experimentalDecorators": true
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "githubPullRequests.fileListLayout": "flat",
+  "githubPullRequests.remotes": [
+    "origin",
+  ],
+  "gitlens.views.repositories.files.layout": "list",
+  "editor.renderWhitespace": "none",
+  "files.exclude": {
+    ".vscode": true
+  },
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.server": "http://localhost:5335/plantuml",
+  "debug.javascript.autoAttachFilter": "disabled",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
 }
